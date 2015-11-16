@@ -1,0 +1,14 @@
+{
+  "name": "vu-news-scrapper",
+  "version": "1.0.0",
+  "description": "A web scrapper which scraps for latest news from Virtual University of Pakistan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Saqib <segmentationfaulter@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  }
+}
