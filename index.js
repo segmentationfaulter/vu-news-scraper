@@ -1,10 +1,11 @@
 'use strict';
-const fetchHTML = require('./lib/fetch_html');
-const getNewsIDs = require('./lib/extract_news_ids');
-const url = require('./lib/config').url;
+const poll = require('./lib/poll');
 
-fetchHTML(url, (err, html) => {
+poll((err, updates) => {
   if (err) throw err;
-  var ids = getNewsIDs(html);
-  console.log(ids);
+  if (updates.length === 0) {
+    console.log('No updates');
+  } else {
+    console.log(updates);
+  }
 });
