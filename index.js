@@ -10,5 +10,7 @@ poll((err, updates) => {
       tweet(tweets);
       console.log('tweeted');
     });
+  } else {
+    console.log('No new updates');
   }
 });
