@@ -1,6 +1,6 @@
 # Virtual University SMS Alerts Utility
 
-This is a small web scraper written in JavaScript. It keeps watching the [news page](http://vu.edu.pk/News/NewsList.aspx) of Virtual University of Pakistan and fetches the latest news from there as soon as they happen and then sends the title of the news and its link as an SMS to the subscribers. I wrote it because being a VU student, I had to keep visiting VU website all the time to keep up-to-date with the latest news from the university.
+This is a small web scraper written in JavaScript. It keeps watching the [news page](http://vu.edu.pk/News/NewsList.aspx) of Virtual University of Pakistan and fetches the latest news from there as soon as they happen and tweets them using Twitter API. If you want to get latest news notifications on you feature phone (dumb one), you can SMS-subscribe the twitter account **UpdatesVU**. I wrote it because being a VU student, I had to keep visiting VU website all the time to keep up-to-date with the latest news from the university.
 
 ## How to Subscribe:
 
